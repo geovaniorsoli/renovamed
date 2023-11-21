@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'font';
+    src: url(./font/OverusedGrotesk-SemiBold.otf);
+}
+
+.background{
+    background-color: #dfeedf;
+}
+.navbar{
+    background-color: #1c8018;
+    color: white;
+}
+
+.navbar2{
+    background-color: #5e3030;
+    color: rgb(0, 0, 0);
+}
+.black{
+    color: black;
+}
+a navbar{
+    color: white;
+}
+
+.font{
+    font-family: 'font';
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-family: 'font';
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+.link:hover{
+    color: rgb(171, 171, 171);
+}
+
+
+
+.link2{
+    color: white;
+    text-decoration: none;
+    font-family: 'font';
+    font-size: 20px;
+    transition: all 0.2s;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.link2:hover{
+    color: rgb(171, 171, 171);
+}
+.maintxt{
+    background-color: #3a8c38;
+    padding: 30px;
+    width: 60%;
+    border-radius: 10px;
+    border: 3px solid #78af76;
+    font-family: "font";
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+.title{
+    font-size: 100px;
+    font-family: font;
+    color: rgb(0, 0, 0);
+}
+
+.conhecamais{
+    font-size: 20px;
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.conhecamais:hover{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.img-fluid{
+    width: 300px;
+    margin-left: 200px;
+}
+
+#main{
+    height: 900px;
+}
+
+#ideia{
+    height: 700px;
+}
+
+#parcerias{
+    height: 1000px;
+}
+.titleideia{
+    font-size: 60px;
+    color: black;
+    font-family: font;
+    padding: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.carousel-inner{
+    background-color: #3a8c38;
+    border: 3px solid #78af76;
+    border-radius:10px;
+    justify-content: center;
+}
+
+.card01{
+    background-color: #3a8c38;
+    border: 3px solid #78af76;
+    border-radius:10px;
+   
+}
+
+.hr{
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* Seu CSS para telas menores aqui */
+
+    .title{
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .img-fluid{
+        width: 150px;
+        margin-top: 40px;
+    }
+
+    .titleideia{
+        font-size: 60px;
+        padding: 0px;
+       
+    }
+
+    
+.maintxt{
+    background-color: #3a8c38;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    border: 3px solid #78af76;
+    font-family: "font";
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: start;
+  }
+  }
